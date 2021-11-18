@@ -1,3 +1,5 @@
+from math import *
+
 print("Hello there world")
 #declare a variable
 name = "John"
@@ -47,7 +49,7 @@ print(str(my_num) + " is my favourite number") #anytime you convert a number int
 
 my_num = -6
 print(abs(my_num))
-#pow, (power function)allow you to give a number or to the power of;
+#pow, (power function)allow you to give a number 2 pieces of information,  or to the power of;
 print(pow(3, 2)) # same sa 3^2(raised to)
 
 #max function returns the larger number
@@ -55,3 +57,12 @@ print(max(10, 5))
 print(min(6, 3)) # prints minimum number
 print(round(3.78965)) #rounds it off
 
+my_num= 5
+print(floor(3.7)) #grabs the lowest number
+print(ceil(3.4)) #Rounds the number off to the next number
+print(sqrt(36)) #returns the square root
+
+print(fabs(9))
+
+name = input("Enter your name : ")
+print("Hello " + name )
