@@ -65,4 +65,5 @@ print(sqrt(36)) #returns the square root
 print(fabs(9))
 
 name = input("Enter your name : ")
-print("Hello " + name )
+age = input("Enter your age : ")
+print("Hello " + name, "," + "You are " + age, "years old")
